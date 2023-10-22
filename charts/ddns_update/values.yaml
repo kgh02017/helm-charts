@@ -1,0 +1,43 @@
+# Default values for ddns_update.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+### Parameters for DynamicDNSUpdate scrypt (Mandatory)
+
+config:
+  dns_zone: ""
+  timezone: UTC-9
+
+secret:
+  aws_access_key_id: ""
+  aws_secret_access_key: ""
+
+### Parameters for Kubernetes
+
+nameOverride: ""
+fullnameOverride: ""
+
+image:
+  repository: ghcr.io/kgh02017/ddns_update
+  tag: "2.1.0"
+
+imagePullSecrets: []
+
+cronjob:
+  schedule: "@hourly"
+  successfulJobsHistoryLimit: 6
+  failedJobsHistoryLimit: 10
+
+job:
+  completions: 1
+  backoffLimit: 3
+
+persistence:
+  storageClass: ""
+  size: 100M
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}

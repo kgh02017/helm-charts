@@ -1,0 +1,16 @@
+apiVersion: v2
+name: ddns-update
+description: A Helm chart for DynamicDNSUpdate
+appVersion: "2.1.0"
+type: application
+
+sources:
+  - https://github.com/kgh02017/DynamicDNSUpdate
+
+# chart version
+version: 1.0.0
+
+icon: https://kgh02017.github.io/helm-charts/kgh02017_logo.png
+
+maintainers:
+  - name: Taku Izumi
