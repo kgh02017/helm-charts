@@ -6,6 +6,7 @@ This repository containes materials of Helm charts
 ## Helm Charts
 
 - ddns_update
+- source-efcore
 
 ## Helm Repository
 

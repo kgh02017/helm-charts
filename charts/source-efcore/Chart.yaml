@@ -1,0 +1,13 @@
+apiVersion: v2
+name: source-efcore
+description: A Helm chart for Source Index Server of efcore
+appVersion: "7.0.13"
+type: application
+
+# chart version
+version: 1.0.0
+
+icon: https://kgh02017.github.io/helm-charts/kgh02017_logo.png
+
+maintainers:
+  - name: Taku Izumi
