@@ -7,6 +7,7 @@ This repository containes materials of Helm charts
 
 - ddns_update
 - source-efcore
+- source-k8sclient
 
 ## Helm Repository
 

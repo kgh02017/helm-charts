@@ -1,0 +1,45 @@
+# Default values for source-k8sclient.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+nameOverride: ""
+fullnameOverride: ""
+
+image:
+  repository: ghcr.io/kgh02017/source-k8sclient
+  tag: "12.1.1"
+
+imagePullSecrets: []
+
+replicaCount: 1
+
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  enabled: false
+  className: ""
+  annotations: {}
+    # kubernetes.io/ingress.class: nginx
+    # kubernetes.io/tls-acme: "true"
+  hosts:
+    - host: source-k8sclient.your-cluster.local
+      paths:
+        - path: /
+          pathType: ImplementationSpecific
+  tls: []
+  #  - secretName: chart-example-tls
+  #    hosts:
+  #      - chart-example.local
+
+route:
+  enabled: false
+  annotations: {}
+  host: source-k8sclient.your-cluster.local
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
