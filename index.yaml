@@ -30,4 +30,18 @@ entries:
     urls:
     - https://github.com/kgh02017/helm-charts/releases/download/source-efcore-1.0.0/source-efcore-1.0.0.tgz
     version: 1.0.0
-generated: "2023-11-01T08:34:31.368869375Z"
+  source-k8sclient:
+  - apiVersion: v2
+    appVersion: 12.1.1
+    created: "2023-11-01T12:49:39.716229459Z"
+    description: A Helm chart for Source Index Server of k8sclient
+    digest: c50cf61aa289e8125d2917157adbf1eec45e14a57e9dee025e13b005e9798406
+    icon: https://kgh02017.github.io/helm-charts/kgh02017_logo.png
+    maintainers:
+    - name: Taku Izumi
+    name: source-k8sclient
+    type: application
+    urls:
+    - https://github.com/kgh02017/helm-charts/releases/download/source-k8sclient-1.0.0/source-k8sclient-1.0.0.tgz
+    version: 1.0.0
+generated: "2023-11-01T12:49:39.71623506Z"
