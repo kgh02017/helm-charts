@@ -16,4 +16,18 @@ entries:
     urls:
     - https://github.com/kgh02017/helm-charts/releases/download/ddns-update-1.0.0/ddns-update-1.0.0.tgz
     version: 1.0.0
-generated: "2023-10-22T01:19:30.980574921Z"
+  source-efcore:
+  - apiVersion: v2
+    appVersion: 7.0.13
+    created: "2023-11-01T08:34:31.368863375Z"
+    description: A Helm chart for Source Index Server of efcore
+    digest: dc5b74c30643d2e8fb9f4924992c407bd25e32df71969563612a32355ee32a54
+    icon: https://kgh02017.github.io/helm-charts/kgh02017_logo.png
+    maintainers:
+    - name: Taku Izumi
+    name: source-efcore
+    type: application
+    urls:
+    - https://github.com/kgh02017/helm-charts/releases/download/source-efcore-1.0.0/source-efcore-1.0.0.tgz
+    version: 1.0.0
+generated: "2023-11-01T08:34:31.368869375Z"
